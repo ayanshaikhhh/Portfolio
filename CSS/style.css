@@ -497,6 +497,13 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+
+    .work-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
 }
 
 
