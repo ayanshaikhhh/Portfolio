@@ -230,7 +230,8 @@ nav ul li a:hover::after{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -239,10 +240,17 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 90%;
+    width: 100%;
+
 }
 
 .work img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -309,7 +317,19 @@ nav ul li a:hover::after{
     background: #ff004f;
 }
 
+.work .layer h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 
+
+
+.work .layer p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
 
 /* -- ----------------contact---------------- -- */
 .contact-left{
