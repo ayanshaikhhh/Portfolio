@@ -221,6 +221,18 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 }
 
+#services .services-list div p{
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* -- ----------------portfolio---------------- -- */
