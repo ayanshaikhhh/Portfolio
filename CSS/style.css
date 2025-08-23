@@ -546,10 +546,18 @@ nav .fas{
     .work-list{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
     }
+
+    .project-work-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
 }
 
 
